@@ -137,3 +137,28 @@ nav li a{
     padding: 32px;
     width: 50%;
 }
+
+/*image */
+.rounded-image {
+    border-radius: 24px; 
+    width: 408px; 
+    height: auto; 
+    }
+
+/* news boxes */
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.section-text{
+    font-size: 16px;
+    opacity: 70%;
+}
+.box1{
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
