@@ -7,13 +7,12 @@
     font-variation-settings:
       "wdth" 100;
   }
-/* left right margins */
+
+  /* left right margins */
 .margin-lr{
     margin-left: 160px;
     margin-right: 160px;
 }
-
-
 /* nav style */
 nav {
     display: flex;
@@ -54,6 +53,7 @@ nav li a{
     margin-top: 24px;
 }
 
+
 /* banners */
 .banner-intro{
     font-weight: medium;
@@ -74,21 +74,6 @@ nav li a{
     justify-content: space-between;
     border-radius: 24px;
     background-color: #C6E4D6;
-    padding: 60px 80px;
-    
-    
-}
-.section-title {
-    font-size: 40px;
-    font-weight: bold;
-
+    padding: 60px 80px;    
 }
 
-.section-text{
-    font-size: 16px;
-    opacity: 70%;
-}
-.sub-section-title{
-    font-size: 20px;
-    
-}
