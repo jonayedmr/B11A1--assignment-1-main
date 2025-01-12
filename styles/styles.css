@@ -282,5 +282,16 @@ nav li a{
     border-radius: 0px 16px 16px 0px;
     border-color: #006A50;
     margin-left: 0px;
-   
+   }
+.sub-btn:hover{
+    background-color:#ff0000
+}
+.logo-inline {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 32px;
+    gap: 23px;
+    margin-bottom: 50px;
 }
