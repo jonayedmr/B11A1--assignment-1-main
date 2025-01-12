@@ -54,7 +54,7 @@ nav li a{
     border-radius: 8px;
     border-color: #5490F5;
     margin-top: 24px;
-    
+    display:inline-block;
     }
 .b-btn:hover{
     background-color: #ff0000;
@@ -68,6 +68,7 @@ nav li a{
         border-radius: 8px;
         border-color:#09A15C;
         margin-top: auto;
+        display:inline-block;
         }
 .g-btn:hover{
     background-color: #ff0000;
@@ -81,6 +82,7 @@ nav li a{
         border-radius: 8px;
         border-color: #FFC239;
         margin-top: auto;
+        display:inline-block;
         }
 .y-btn:hover{
     background-color: #ff0000;
@@ -141,14 +143,13 @@ nav li a{
     border-radius: 16px;
     background-color:#b3d1fb;
     padding: 32px;
-    
+ 
 }
 .green-box{
     border-radius: 16px;
     background-color: #C6E4D6;
     padding: 32px;
-    width: 50%;
-    
+ 
 }
 
 
@@ -157,6 +158,7 @@ nav li a{
     background-color: #F7EBCF;
     padding: 32px;
     width: 50%;
+    
 }
 
 /*image */
@@ -214,10 +216,71 @@ nav li a{
     padding: 0px 32px;
     margin: 32px 0px;
     border-style: solid;
-   border-color: 0.15 #0E0E0E;
+    border-color: #bababa;
+    
+}
+.money-box1{
+    border-radius: 16px;
+    background-color: #c6e4c6;
+    padding: 0px 32px;
+    margin: 32px 0px;
+    border-style: solid;
+    border-color: #c9c9c9;
+}
+.money-box:hover{
+    background-color: #ff0000;
+}
+.money-box1:hover{
+    background-color: #ff0000;
+}
+.don-input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    margin-top: 32px ;
+    margin-bottom: 32px; 
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
     
 }
 
-.long{
+.subs-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    border-radius: 24px;
+    background-color:#b3d1fb;
+    padding:80px 265px;
+}
+.subs-input{
+    width:60%;
+    padding: 40px;
+    border: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 32px 0px 32px 0px;
+    /* margin-bottom: 32px; 
+    margin-right: 0px; */
+    font-size: 20px; 
+    padding: 20px;
+    border-radius: 16px 0px 0px 16px;
     
+  }
+  .form-inline {  
+    display: inline;
+    align-items: center;
+    margin-right: -4px;
+    
+  }
+
+  .sub-btn{
+    font-weight:semi-bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #006A50;
+    padding: 17px 40px;
+    border-radius: 0px 16px 16px 0px;
+    border-color: #006A50;
+    margin-left: 0px;
+   
 }
