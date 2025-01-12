@@ -132,6 +132,10 @@ nav li a{
     margin-top: 80px;
     
 }
+.vision-title{
+    font-size: 20px;
+    opacity: 80%;
+}
 .box-container{
     display: flex;
     justify-content: space-around;
@@ -212,7 +216,7 @@ nav li a{
 }
 .money-box{
     border-radius: 16px;
-    background-color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 0px 32px;
     margin: 32px 0px;
     border-style: solid;
@@ -221,7 +225,7 @@ nav li a{
 }
 .money-box1{
     border-radius: 16px;
-    background-color: #c6e4c6;
+    background: rgb(198, 228, 214);
     padding: 0px 32px;
     margin: 32px 0px;
     border-style: solid;
@@ -294,4 +298,17 @@ nav li a{
     margin: 32px;
     gap: 23px;
     margin-bottom: 50px;
+}
+
+.quote{
+    padding: 48px 24px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(14, 14, 14, 0.8);
+    margin-top: 32px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    
 }
