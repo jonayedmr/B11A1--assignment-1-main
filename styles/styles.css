@@ -180,6 +180,8 @@ nav li a{
 .news-title{
     font-size: 32px;
     font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
     margin-top: 0px;
 }
 .box1{
@@ -187,4 +189,35 @@ nav li a{
     display: flex;
     justify-content:center;
     gap: 32px;
+}
+.donate-container{
+    text-align:center;
+    
+}
+.money-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    
+   
+}
+.money-title{
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 80%;
+    
+}
+.money-box{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 0px 32px;
+    margin: 32px 0px;
+    border-style: solid;
+   border-color: 0.15 #0E0E0E;
+    
+}
+
+.long{
+    
 }
