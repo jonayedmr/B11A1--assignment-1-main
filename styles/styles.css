@@ -42,6 +42,9 @@ nav li a{
     border-radius: 8px;
     border-color: #006A50;
     }
+    .btn-primary:hover{
+        background-color: #ff0000;
+        }
 .b-btn{
     font-weight:semi-bold;
     font-size: 18px;
@@ -50,6 +53,11 @@ nav li a{
     padding: 15px 30px;
     border-radius: 8px;
     border-color: #5490F5;
+    margin-top: 24px;
+    
+    }
+.b-btn:hover{
+    background-color: #ff0000;
     }
 .g-btn{
         font-weight:semi-bold;
@@ -58,8 +66,12 @@ nav li a{
         background-color: #09A15C;
         padding: 15px 30px;
         border-radius: 8px;
-        border-color:#09A15C
+        border-color:#09A15C;
+        margin-top: auto;
         }
+.g-btn:hover{
+    background-color: #ff0000;
+    }
 .y-btn{
         font-weight:semi-bold;
         font-size: 18px;
@@ -68,7 +80,11 @@ nav li a{
         padding: 15px 30px;
         border-radius: 8px;
         border-color: #FFC239;
+        margin-top: auto;
         }
+.y-btn:hover{
+    background-color: #ff0000;
+    }
 .btn-green{
     font-weight:semi-bold;
     font-size: 18px;
@@ -77,8 +93,12 @@ nav li a{
     padding: 17px 34px;
     border-radius: 8px;
     border-color: #006A50;
-    margin-top: 24px;
+    margin-top: auto;
+   
 }
+.btn-green:hover{
+    background-color: #ff0000;
+    }
 
 
 /* banners */
@@ -104,7 +124,7 @@ nav li a{
     padding: 60px 80px;    
 }
 
-
+/*vision*/
 .target-container{
     text-align: justify;
     margin-top: 80px;
@@ -114,7 +134,7 @@ nav li a{
     display: flex;
     justify-content: space-around;
     gap: 24px;
-
+    
 }
 .digital-box{
     width: 50%;
@@ -128,6 +148,7 @@ nav li a{
     background-color: #C6E4D6;
     padding: 32px;
     width: 50%;
+    
 }
 
 
@@ -141,13 +162,13 @@ nav li a{
 /*image */
 .rounded-image {
     border-radius: 24px; 
-    width: 408px; 
+    width: auto; 
     height: auto; 
     }
 
 /* news boxes */
 .section-title {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
 
 }
@@ -156,9 +177,14 @@ nav li a{
     font-size: 16px;
     opacity: 70%;
 }
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+}
 .box1{
-    padding: 32px;
+    padding: 48px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     gap: 32px;
 }
