@@ -307,8 +307,7 @@ nav li a{
     border-width: 1px;
     border-color:rgba(14, 14, 14, 0.8);
     margin-top: 32px;
-    background-image: url('./assets/quote-bg.png');
+    background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: 24px 25px;
-    
+    background-position: 24px 25px;    
 }
